@@ -35,6 +35,7 @@ local colors = {
   grey_6 = '#3b4048',
   grey_7 = '#5c5c5c',
   grey_8 = '#252931',
+  grey_9 = '#222732',
   gold = '#ffcc00',
   cyan = '#56b6c2',
   purple = '#c678dd',

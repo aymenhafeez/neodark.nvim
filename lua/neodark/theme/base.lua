@@ -39,7 +39,7 @@ function base.setup(palette)
     CursorLineNr = { fg = palette.fg, bg = palette.none },
     Conceal = { fg = palette.grey, bg = palette.none },
     CursorColumn = { fg = palette.none, bg = palette.grey_4 },
-    CursorLine = { fg = palette.none, bg = palette.grey_8 },
+    CursorLine = { fg = palette.none, bg = palette.grey_9 },
     Directory = { fg = palette.blue, bg = palette.none },
     DiffAdd = { fg = palette.grey_3, bg = palette.green },
     DiffChange = { fg = palette.yellow, bg = palette.none },
