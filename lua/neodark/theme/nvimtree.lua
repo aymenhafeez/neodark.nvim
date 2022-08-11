@@ -2,7 +2,7 @@ local nvimtree = {}
 
 function nvimtree.setup(palette)
   local nvimtree_ = {
-    NvimTreeFolderIcon = { fg = palette.blue_4 },
+    NvimTreeFolderIcon = { fg = palette.blue_6 },
     NvimTreeExecFile = { fg = palette.green },
     NvimTreeOpenedFile = { fg = palette.green },
     NvimTreeRootFolder = { fg = palette.fg },
