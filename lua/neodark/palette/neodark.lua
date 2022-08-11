@@ -9,7 +9,8 @@ local colors = {
   white = '#dedede',
   white_1 = '#afb2bb',
   white_2 = '#c9c9c9',
-  blue = '#61afef',
+  blue = '#41a7fc',
+  og_blue = '#61afef',
   blue_1 = '#40d9ff',
   blue_2 = '#1b1f27',
   blue_3 = '#181c23',
@@ -36,7 +37,8 @@ local colors = {
   grey_8 = '#252931',
   gold = '#ffcc00',
   cyan = '#56b6c2',
-  purple = '#c678dd',
+  purple = '#c75ae8',
+  og_purple = '#c678dd',
 }
 
 return colors
