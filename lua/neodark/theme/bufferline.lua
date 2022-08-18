@@ -10,6 +10,7 @@ function bufferline.setup(palette)
     BufferLineTabSelected = { fg = palette.bufline_black4, bg = palette.bufline_nord_blue },
     BufferLineTabClose = { fg = palette.bufline_red, bg = palette.bufline_black },
     BufferLineIndicatorSelected = { fg = palette.bufline_blue, bg = palette.bufline_black },
+    BufferLineIndicatorVisible = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
     BufferLineSeparator = { fg = palette.bufline_black4, bg = palette.bufline_black4 },
     BufferLineSeparatorVisible = { fg = palette.bufline_black4, bg = palette.bufline_black4 },
     BufferLineSeparatorSelected = { fg = palette.bufline_black4, bg = palette.bufline_black4 },
