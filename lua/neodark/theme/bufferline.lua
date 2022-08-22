@@ -3,7 +3,7 @@ local bufferline = {}
 function bufferline.setup(palette)
   local bufferline_ = {
     BufferLineFill = { fg = palette.bufline_grey_fg, bg = palette.bufline_black4 },
-    BufferLineBackground = { fg = palette.bufline_grey_fg , bg = palette.bufline_black4  },
+    BufferLineBackground = { fg = palette.bufline_grey_fg, bg = palette.bufline_black4  },
     BufferLineBufferVisible = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
     BufferLineBufferSelected = { fg = palette.bufline_white, bg = palette.bufline_black, style = palette.none },
     BufferLineTab = { fg = palette.bufline_light_grey, bg = palette.bufline_onebg3 },
