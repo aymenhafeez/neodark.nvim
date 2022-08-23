@@ -23,13 +23,13 @@ function bufferline.setup(palette)
     BufferLineError = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
     BufferLineErrorDiagnostic = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
 
-    BufferLineDevIconDefault = { bg = palette.bufline_black },
-    BufferLineDevIconDefaultSelected = { bg = palette.bufline_black },
+    BufferLineDevIconDefault = { bg = palette.bufline_black4 },
+    BufferLineDevIconDefaultSelected = { bg = palette.bufline_black4 },
     BufferLineDevIconDefaultInactive = { bg = palette.bufline_black4 },
 
-    BufferLineDevIconLua = { fg = '#51a0cf', bg = palette.bufline_black },
-    BufferLineDevIconLuaSelected = { fg = '#51a0cf', bg = palette.bufline_black },
-    BufferLineDevIconLuaInactive = { fg = '#51a0cf', bg = palette.bufline_black4 },
+    -- BufferLineDevIconLua = { fg = '#51a0cf', bg = palette.bufline_black },
+    -- BufferLineDevIconLuaSelected = { fg = '#51a0cf', bg = palette.bufline_black },
+    -- BufferLineDevIconLuaInactive = { fg = '#51a0cf', bg = palette.bufline_black4 },
   }
   return bufferline_
 end
