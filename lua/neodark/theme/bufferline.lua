@@ -27,9 +27,9 @@ function bufferline.setup(palette)
     BufferLineDevIconDefaultSelected = { bg = palette.bufline_black },
     BufferLineDevIconDefaultInactive = { bg = palette.bufline_black4 },
 
-    BufferLineDevIconLua = { fg = '#51a0cf', bg = palette.bufline_black4 },
-    BufferLineDevIconLuaSelected = { fg = '#51a0cf', bg = palette.bufline_black },
-    BufferLineDevIconLuaInactive = { fg = '#51a0cf', bg = palette.bufline_black4 },
+    -- BufferLineDevIconLua = { fg = '#51a0cf', bg = palette.bufline_black4 },
+    -- BufferLineDevIconLuaSelected = { fg = '#51a0cf', bg = palette.bufline_black },
+    -- BufferLineDevIconLuaInactive = { fg = '#51a0cf', bg = palette.bufline_black4 },
   }
   return bufferline_
 end
