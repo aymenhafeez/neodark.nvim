@@ -22,6 +22,8 @@ function bufferline.setup(palette)
     BufferLineModifiedSelected = { fg = palette.bufline_blue, bg = palette.bufline_black },
     BufferLineError = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
     BufferLineErrorDiagnostic = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
+    BufferLineDevIconLuaSelected = { bg = palette.bufline_black4 },
+    BufferLineDevIconLuaInactive = { bg = palette.bufline_black4 },
   }
   return bufferline_
 end
