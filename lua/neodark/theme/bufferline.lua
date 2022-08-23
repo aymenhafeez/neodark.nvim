@@ -23,9 +23,9 @@ function bufferline.setup(palette)
     BufferLineError = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
     BufferLineErrorDiagnostic = { fg = palette.bufline_light_grey, bg = palette.bufline_black4 },
 
-    BufferLineDevIconDefault = { bg = palette.bufline_black4 },
-    BufferLineDevIconDefaultSelected = { bg = palette.bufline_black },
-    BufferLineDevIconDefaultInactive = { bg = palette.bufline_black4 },
+    -- BufferLineDevIconDefault = { bg = palette.bufline_black4 },
+    -- BufferLineDevIconDefaultSelected = { bg = palette.bufline_black },
+    -- BufferLineDevIconDefaultInactive = { bg = palette.bufline_black4 },
 
     -- BufferLineDevIconLua = { fg = '#51a0cf', bg = palette.bufline_black4 },
     -- BufferLineDevIconLuaSelected = { fg = '#51a0cf', bg = palette.bufline_black },
