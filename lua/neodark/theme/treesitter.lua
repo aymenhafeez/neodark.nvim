@@ -3,7 +3,7 @@ local treesitter = {}
 function treesitter.setup(palette)
   local treesitter_ = {
     TSError = { fg = palette.red },
-    TSPunctDelimiter = { fg = palette.fg },
+    TSPunctDelimiter = { fg = palette.blue },
     TSPunctBracket = { fg = palette.fg },
     TSPunctSpecial = { fg = palette.blue },
     TSConstant = { fg = palette.yellow },
@@ -50,7 +50,7 @@ function treesitter.setup(palette)
     TSLiteral = { fg = palette.fg },
     TSURI = { fg = palette.fg },
     TSTag = { fg = palette.red },
-    TSTagDelimiter = { fg = palette.fg },
+    TSTagDelimiter = { fg = palette.blue },
     rainbowcol1 = { fg = 'Gold' },
     rainbowcol2 = { fg = 'Orchid' },
     rainbowcol3 = { fg = 'LightSkyBlue' },
