@@ -21,6 +21,7 @@ function theme.setup(options)
   local dashboard = require('neodark.theme.dashboard')
   local whichkey = require('neodark.theme.whichkey')
   local symbols_outline = require('neodark.theme.symbols_outline')
+  local navic = require('neodark.theme.navic')
   local notify = require('neodark.theme.notify')
   local nvimtree = require('neodark.theme.nvimtree')
 
@@ -37,6 +38,7 @@ function theme.setup(options)
     dashboard.setup(palette),
     whichkey.setup(palette),
     symbols_outline.setup(palette),
+    navic.setup(palette),
     notify.setup(palette),
     nvimtree.setup(palette),
   }
