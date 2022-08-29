@@ -3,7 +3,7 @@ local base = {}
 function base.setup(palette)
   local base_ = {
     Normal = { fg = palette.fg, bg = palette.bg },
-    Comment = { fg = palette.grey_2, bg = palette.none, italic = true},
+    Comment = { fg = palette.grey_2, bg = palette.none, style = 'italic' },
     Constant = { fg = palette.yellow, bg = palette.none },
     String = { fg = palette.green, bg = palette.none },
     Character = { fg = palette.green, bg = palette.none },
@@ -30,7 +30,7 @@ function base.setup(palette)
     Structure = { fg = palette.yellow, bg = palette.none },
     Typedef = { fg = palette.yellow, bg = palette.none },
     Special = { fg = palette.blue, bg = palette.none },
-    SpecialComment = { fg = palette.grey, bg = palette.none, italic = true },
+    SpecialComment = { fg = palette.grey, bg = palette.none, style = 'italic' },
     Error = { fg = palette.red, bg = palette.none },
     Todo = { fg = palette.purple, bg = palette.none },
     Underlined = { fg = palette.cyan, bg = palette.none },
