@@ -78,7 +78,7 @@ function base.setup(palette)
     WarningMsg = { fg = palette.yellow, bg = palette.none },
     WildMenu = { fg = palette.grey_3, bg = palette.blue },
     EndOfBuffer = { fg = palette.bg, bg = palette.none },
-    FloatBorder = { bg = palette.none },
+    FloatBorder = { fg = palette.blue, bg = palette.none },
     MatchParen = { fg = palette.none, bg = palette.grey_5 },
   }
 
