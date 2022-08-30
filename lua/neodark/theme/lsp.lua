@@ -4,7 +4,7 @@ function lsp.setup(palette)
   local lsp_ = {
     DiagnosticError = { fg = palette.red_1 },
     DiagnosticWarn = { fg = palette.orange_1 },
-    DiagnosticInfo = { fg = palette.white_2 },
+    DiagnosticInfo = { fg = palette.bufline_nord_blue },
     DiagnosticHint = { fg = palette.cyan },
     DiagnosticInformation = { fg = palette.yellow, style = 'bold' },
     DiagnosticUnderlineError = { style = 'undercurl', sp = palette.red_2 },
@@ -34,7 +34,7 @@ function lsp.setup(palette)
     LspFloatWinNormal = { fg = palette.fg, bg = palette.black_1 },
     LspDiagnosticsFloatingError = { fg = palette.red_1 },
     LspDiagnosticsFloatingWarn = { fg = palette.orange_1 },
-    LspDiagnosticsFloatingInfor = { fg = palette.white_2 },
+    LspDiagnosticsFloatingInfor = { fg = palette.bufline_nord_blue },
     LspDiagnosticsFloatingHint = { fg = palette.cyan },
     LspSagaDiagnosticHeader = { fg = palette.yellow },
     LspSagaBorderTitle = { fg = palette.yellow, style = 'bold' },
