@@ -8,7 +8,12 @@ function cmp.setup(palette)
     CmpItemAbbrMatchFuzzyDefault = { fg = palette.cyan, gui =' bold' },
     CmpItemKind = { fg = palette.blue },
     CmpItemAbbr = { fg = palette.fg },
-    CmpItemMenuDefault = { fg = palette.fg },
+    CmpItemMenuDefault = { fg = palette.blue },
+    CmpItemKindFieldDefault = { fg = palette.bufline_dark_purple },
+    CmpItemKindSnippetDefault = { fg = palette.bufline_yellow3 },
+    CmpItemKindTextDefault = { fg = palette.bufline_yellow3 },
+    CmpItemKindFunctionDefault = { fg = palette.bufline_dark_purple },
+    CmpItemKindVariableDefault = { fg = palette.blue }
   }
 
   return cmp_
