@@ -9,10 +9,10 @@ function lsp.setup(palette)
     DiagnosticInfo = { fg = palette.bufline_nord_blue },
     DiagnosticHint = { fg = palette.cyan },
 
-    DiagnosticVirtualTextError = { bg = util.darken(palette.red_1, 0.1), fg = palette.red_1, style = 'italic' },
-    DiagnosticVirtualTextWarn = { bg = util.darken(palette.orange_1, 0.1), fg = palette.orange_1, style = 'italic' },
-    DiagnosticVirtualTextInfo = { bg = util.darken(palette.bufline_nord_blue, 0.1), fg = palette.bufline_nord_blue, style = 'italic' },
-    DiagnosticVirtualTextHint = { bg = util.darken(palette.cyan, 0.1), fg = palette.cyan, style = 'italic' },
+    DiagnosticVirtualTextError = { bg = util.darken(palette.red_4, 0.1, palette.bg0), fg = palette.red_1, style = 'italic' },
+    DiagnosticVirtualTextWarn = { bg = util.darken(palette.orange_1, 0.1, palette.bg0), fg = palette.orange_1, style = 'italic' },
+    DiagnosticVirtualTextInfo = { bg = util.darken(palette.bufline_nord_blue, 0.1, palette.bg0), fg = palette.bufline_nord_blue, style = 'italic' },
+    DiagnosticVirtualTextHint = { bg = util.darken(palette.cyan, 0.1, palette.bg0), fg = palette.cyan, style = 'italic' },
 
     DiagnosticInformation = { fg = palette.yellow, style = 'bold' },
     DiagnosticUnderlineError = { style = 'undercurl', sp = palette.red_2 },
