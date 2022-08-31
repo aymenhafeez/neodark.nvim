@@ -1,5 +1,12 @@
 local util = {}
 
+util.colorsUsed = {}
+util.colorCache = {}
+
+util.bg = "#000000"
+util.fg = "#ffffff"
+util.day_brightness = 0.3
+
 function util.highlight(group, color)
   local fg = color.fg and 'guifg = ' .. color.fg or 'guifg = NONE'
   local bg = color.bg and 'guibg = ' .. color.bg or 'guibg = NONE'
@@ -30,6 +37,17 @@ end
 function util.load(theme_name, theme)
   util.init_settings(theme_name)
   util.syntax(theme)
+end
+
+local function hexToRgb(hex_str)
+  local hex = "[abcdef0-9][abcdef0-9]"
+  local pat = "^#(" .. hex .. ")(" .. hex .. ")(" .. hex .. ")$"
+  hex_str = string.lower(hex_str)
+
+  assert(string.find(hex_str, pat) ~= nil, "hex_to_rgb: invalid hex_str: " .. tostring(hex_str))
+
+  local r, g, b = string.match(hex_str, pat)
+  return { tonumber(r, 16), tonumber(g, 16), tonumber(b, 16) }
 end
 
 function util.blend(fg, bg, alpha)
