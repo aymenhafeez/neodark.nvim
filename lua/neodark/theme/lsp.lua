@@ -7,12 +7,12 @@ function lsp.setup(palette)
     DiagnosticError = { fg = palette.red_1 },
     DiagnosticWarn = { fg = palette.orange_1 },
     DiagnosticHint = { fg = palette.cyan },
-    DiagnosticInfo = { fg = palette.purple },
+    DiagnosticInfo = { fg = palette.bufline_blue },
 
     DiagnosticVirtualTextError = { bg = util.darken(palette.dark_red, 0.1, palette.bg0), fg = palette.dark_red, style = 'italic' },
     DiagnosticVirtualTextWarn = { bg = util.darken(palette.dark_yellow, 0.1, palette.bg0), fg = palette.dark_yellow, style = 'italic' },
     DiagnosticVirtualTextHint = { bg = util.darken(palette.dark_cyan, 0.1, palette.bg0), fg = palette.dark_cyan, style = 'italic' },
-    DiagnosticVirtualTextInfo = { bg = util.darken(palette.dark_purple, 0.1, palette.bg0), fg = palette.dark_purple, style = 'italic' },
+    DiagnosticVirtualTextInfo = { bg = util.darken(palette.bufline_blue, 0.1, palette.bg0), fg = palette.bufline_blue, style = 'italic' },
 
     DiagnosticInformation = { fg = palette.yellow, style = 'bold' },
     DiagnosticUnderlineError = { style = 'undercurl', sp = palette.red_2 },
@@ -43,7 +43,7 @@ function lsp.setup(palette)
     LspDiagnosticsFloatingError = { fg = palette.red_1 },
     LspDiagnosticsFloatingWarn = { fg = palette.orange_1 },
     LspDiagnosticsFloatingHint = { fg = palette.dark_cyan },
-    LspDiagnosticsFloatingInfor = { fg = palette.purple },
+    LspDiagnosticsFloatingInfor = { fg = palette.bufline_blue },
     LspSagaDiagnosticHeader = { fg = palette.yellow },
     LspSagaBorderTitle = { fg = palette.yellow, style = 'bold' },
   }
