@@ -10,7 +10,7 @@ function lsp.setup(palette)
     DiagnosticInfo = { fg = palette.bufline_nord_blue },
 
     DiagnosticVirtualTextError = { bg = util.darken(palette.dark_red, 0.1, palette.bg0), fg = palette.dark_red, style = 'italic' },
-    DiagnosticVirtualTextWarn = { bg = util.darken(palette.orange_1, 0.1, palette.bg0), fg = palette.orange_1, style = 'italic' },
+    DiagnosticVirtualTextWarn = { bg = util.darken(palette.dark_yellow, 0.1, palette.bg0), fg = palette.dark_yellow, style = 'italic' },
     DiagnosticVirtualTextHint = { bg = util.darken(palette.dark_cyan, 0.1, palette.bg0), fg = palette.dark_cyan, style = 'italic' },
     DiagnosticVirtualTextInfo = { bg = util.darken(palette.bufline_nord_blue, 0.1, palette.bg0), fg = palette.bufline_nord_blue, style = 'italic' },
 
