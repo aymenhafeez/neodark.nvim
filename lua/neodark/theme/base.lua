@@ -49,7 +49,7 @@ function base.setup(palette)
     VertSplit = { fg = palette.black, bg = palette.none },
     Folded = { fg = palette.grey, bg = palette.none },
     FoldColumn = { fg = palette.none, bg = palette.none },
-    IncSearch = { bg = palette.grey },
+    IncSearch = { bg = palette.grey_2 },
     LineNr = { fg = palette.grey_1, bg = palette.none },
     NonText = { fg = palette.grey_1, bg = palette.none },
     Pmenu = { fg = palette.fg, bg = palette.black_1 },
