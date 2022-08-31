@@ -58,7 +58,7 @@ function base.setup(palette)
     PmenuThumb = { fg = palette.none, bg = palette.fg },
     Question = { fg = palette.purple, bg = palette.none },
     QuickFixLine = { fg = palette.grey_3, bg = palette.yellow },
-    Search = { fg = palette.grey_3, bg = palette.yellow },
+    Search = { fg = palette.none, bg = palette.grey },
     SignColumn = { fg = palette.bg, bg = palette.bg },
     SpecialKey = { fg = palette.grey_1, bg = palette.none },
     SpellBad = { fg = palette.red, bg = palette.none },
