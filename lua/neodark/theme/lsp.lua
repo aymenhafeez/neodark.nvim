@@ -6,8 +6,8 @@ function lsp.setup(palette)
   local lsp_ = {
     DiagnosticError = { fg = palette.red_1 },
     DiagnosticWarn = { fg = palette.orange_1 },
-    DiagnosticInfo = { fg = palette.bufline_nord_blue },
-    DiagnosticHint = { fg = palette.cyan },
+    DiagnosticInfo = { fg = palette.dark_cyan },
+    DiagnosticHint = { fg = palette.dark_purple },
 
     DiagnosticVirtualTextError = { bg = util.darken(palette.dark_red, 0.1, palette.bg0), fg = palette.dark_red, style = 'italic' },
     DiagnosticVirtualTextWarn = { bg = util.darken(palette.dark_yellow, 0.1, palette.bg0), fg = palette.dark_yellow, style = 'italic' },
@@ -42,8 +42,8 @@ function lsp.setup(palette)
     LspFloatWinNormal = { fg = palette.fg, bg = palette.black_1 },
     LspDiagnosticsFloatingError = { fg = palette.red_1 },
     LspDiagnosticsFloatingWarn = { fg = palette.orange_1 },
-    LspDiagnosticsFloatingInfor = { fg = palette.bufline_nord_blue },
-    LspDiagnosticsFloatingHint = { fg = palette.cyan },
+    LspDiagnosticsFloatingInfor = { fg = palette.dark_cyan },
+    LspDiagnosticsFloatingHint = { fg = palette.dark_purple },
     LspSagaDiagnosticHeader = { fg = palette.yellow },
     LspSagaBorderTitle = { fg = palette.yellow, style = 'bold' },
   }
