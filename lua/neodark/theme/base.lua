@@ -1,3 +1,4 @@
+local util = require("neodark.util")
 local base = {}
 
 function base.setup(palette)
@@ -73,7 +74,7 @@ function base.setup(palette)
     TabLineSel = { fg = palette.fg, bg = palette.none },
     TabLineFill = { fg = palette.none, bg = palette.grey_3 },
     Terminal = { fg = palette.fg, bg = palette.grey_3 },
-    Visual = { fg = palette.none, bg = palette.blue_7 },
+    Visual = { fg = palette.none, bg = util.darken(palette.blue, 0.1, palette.bg0) },
     VisualNOS = { fg = palette.grey_5, bg = palette.none },
     WarningMsg = { fg = palette.yellow, bg = palette.none },
     WildMenu = { fg = palette.grey_3, bg = palette.blue },
