@@ -9,7 +9,7 @@ function navic.setup(palette)
     NavicIconsField = { fg = palette.blue },
     NavicIconsFunction = { fg = palette.bufline_dark_purple },
     NavicIconsProperty = { fg = palette.bufline_dark_purple, bold = false},
-    NavicIconsEnum = { fg = palette.blue },
+    NavicIconsEnum = { fg = palette.bufline_dark_purple },
     NavicIconsEnumMember = { fg = palette.yellow },
     NavicIconsTypeParamter = { fg = palette.yellow },
     NavicIconsConstant = { fg = palette.green },
