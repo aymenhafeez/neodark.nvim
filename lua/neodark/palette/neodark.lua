@@ -46,6 +46,7 @@ local colors = {
   gold = '#ffcc00',
   cyan = '#56b6c2',
   dark_cyan = "#266269",
+  dark_cyan_2 = '#428286',
   purple = '#c678dd',
   dark_purple = "#7e3992",
 
