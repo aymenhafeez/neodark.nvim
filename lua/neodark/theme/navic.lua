@@ -3,7 +3,7 @@ local navic = {}
 function navic.setup(palette)
   local navic_ = {
     NavicIconsClass = { fg = palette.bufline_yellow3 },
-    NavicIconsVariable = { fg = palette.blue },
+    NavicIconsVariable = { fg = palette.bufline_dark_purple },
     NavicIconsModule = { fg = palette.blue },
     NavicIconsMethod = { fg = palette.blue },
     NavicIconsField = { fg = palette.blue },
