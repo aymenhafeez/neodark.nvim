@@ -3,13 +3,13 @@ local navic = {}
 function navic.setup(palette)
   local navic_ = {
     NavicIconsClass = { fg = palette.bufline_yellow3 },
-    NavicIconsVariable = { fg = palette.bufline_dark_purple },
+    NavicIconsVariable = { fg = palette.purple },
     NavicIconsModule = { fg = palette.blue },
     NavicIconsMethod = { fg = palette.blue },
     NavicIconsField = { fg = palette.blue },
     NavicIconsFunction = { fg = palette.blue },
-    NavicIconsProperty = { fg = palette.bufline_dark_purple, bold = false},
-    NavicIconsEnum = { fg = palette.bufline_dark_purple },
+    NavicIconsProperty = { fg = palette.purple, bold = false},
+    NavicIconsEnum = { fg = palette.purple },
     NavicIconsEnumMember = { fg = palette.yellow },
     NavicIconsTypeParamter = { fg = palette.yellow },
     NavicIconsConstant = { fg = palette.green },
