@@ -47,7 +47,7 @@ function base.setup(palette)
     DiffDelete = { fg = palette.grey_3, bg = palette.red },
     DiffText = { fg = palette.grey_3, bg = palette.yellow },
     ErrorMsg = { fg = palette.red, bg = palette.none },
-    VertSplit = { fg = palette.black, bg = palette.none },
+    VertSplit = { fg = palette.grey_10, bg = palette.none },
     Folded = { fg = palette.grey, bg = palette.none },
     FoldColumn = { fg = palette.none, bg = palette.none },
     IncSearch = { fg = palette.grey_3, bg = palette.bufline_yellow3 },
