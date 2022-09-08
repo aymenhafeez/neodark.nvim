@@ -10,7 +10,7 @@ function telescope.setup(palette)
     TelescopePreviewBorder = { fg = palette.blue },
     TelescopeSelectionCaret = { fg = palette.green },
     TelescopeMatching = { fg = palette.yellow },
-    TelescopeSelection = { bg = palette.grey_5 },
+    TelescopeSelection = { bg = palette.none },
     TelescopeMultiSelection = { fg = palette.blue },
     TelescopeMultiIcon = { fg = palette.blue },
     TelescopeNormal = { fg = palette.fg, bg = palette.bg },
