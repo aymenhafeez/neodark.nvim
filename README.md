@@ -1,8 +1,7 @@
 <h1 align=center>neodark.nvim</h2>
 <h3 align=center>Simple onedark based colorscheme for Neovim.</h3>
 
-
-![alt text](showcase.png?raw=true "Showcase")
+![alt text](showcase_4.png?raw=true "Showcase")
 
 <div align=center> 
 	<a href="#Introduction">Introduction</a>
@@ -19,10 +18,11 @@
 
 ### Introduction
 
-This theme provide the [AstroVim](https://github.com/kabinspace/AstroVim) colorscheme, itself based on the [Onedark](https://atom.io/themes/one-dark-ui) theme.
-A _darker_ version of this theme is also provided.
-
-> Created this because I'm a [LunarVim](https://github.com/LunarVim/LunarVim) user.
+This is a fork of VDuchauffour's OneDark based [neodark
+theme](http://github.com/VDuchauffour/neodark.nvim), with a few tweaks to the
+neodark style, and neodarker is now neodark with more vibrant foreground
+colours. Support for [nvim-navic](http://github.com/SmiteshP/nvim-navic) has
+also been added.
 
 ### Installation and usage
 
@@ -31,7 +31,7 @@ Install the theme with your preferred package manager:
 - [Packer](https://github.com/wbthomason/packer.nvim):
 
 ```lua
-use "VDuchauffour/neodark.nvim"
+use "aymenhafeez/neodark.nvim"
 ```
 
 #### Usage
@@ -64,6 +64,8 @@ require("neodark").setup({
 - Indent guides with [Indent Blankline](https://github.com/lukas-reineke/indent-blankline.nvim)
 - Git integration with [Gitsigns](https://github.com/lewis6991/gitsigns.nvim)
 - Statusline with [Lualine](https://github.com/nvim-lualine/lualine.nvim)
+- Buffer/tab bar with [Bufferline](http://github.com/akinsho/bufferline.nvim)
+- Winbar with [Nvim-navic](http://github.com/SmiteshP/nvim-navic)
 - Fuzzy finding with [Telescope](https://github.com/nvim-telescope/telescope.nvim)
 - Personal Wiki for Vim with [VimWiki](https://github.com/vimwiki/vimwiki)
 - Display a popup with possible keybindings with [Which Key](https://github.com/folke/which-key.nvim)
