@@ -4,7 +4,7 @@ function treesitter.setup(palette)
   local treesitter_ = {
     TSError = { fg = palette.red },
     TSPunctDelimiter = { fg = palette.blue },
-    TSPunctBracket = { fg = palette.blue },
+    TSPunctBracket = { fg = palette.yellow },
     TSPunctSpecial = { fg = palette.blue },
     TSConstant = { fg = palette.yellow },
     TSConstBuiltin = { fg = palette.orange },
@@ -26,7 +26,7 @@ function treesitter.setup(palette)
     TSParameterReference = { fg = palette.cyan },
     TSMethod = { fg = palette.blue },
     TSField = { fg = palette.cyan },
-    TSProperty = { fg = palette.yellow },
+    TSProperty = { fg = palette.blue },
     TSConstructor = { fg = palette.yellow },
     TSConditional = { fg = palette.purple },
     TSRepeat = { fg = palette.purple },
@@ -46,11 +46,12 @@ function treesitter.setup(palette)
     TSStrong = { fg = palette.fg },
     TSEmphasis = { fg = palette.fg },
     TSUnderline = { fg = palette.fg },
-    TSTitle = { fg = palette.fg },
+    TSTitle = { fg = palette.cyan },
     TSLiteral = { fg = palette.fg },
-    TSURI = { fg = palette.fg },
-    TSTag = { fg = palette.red },
+    TSURI = { fg = palette.cyan },
+    TSTag = { fg = palette.purple },
     TSTagDelimiter = { fg = palette.blue },
+    TSTagAttribute = { fg = palette.blue },
     rainbowcol1 = { fg = 'Gold' },
     rainbowcol2 = { fg = 'Orchid' },
     rainbowcol3 = { fg = 'LightSkyBlue' },
@@ -58,6 +59,9 @@ function treesitter.setup(palette)
     rainbowcol5 = { fg = 'Orchid' },
     rainbowcol6 = { fg = 'LightSkyBlue' },
     rainbowcol7 = { fg = 'Orchid' },
+
+    markdownTSLiteral = { fg = palette.blue },
+    markdown_inlineTSLiteral = { fg = palette.blue }
   }
 
   return treesitter_

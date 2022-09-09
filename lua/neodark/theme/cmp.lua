@@ -2,13 +2,12 @@ local cmp = {}
 
 function cmp.setup(palette)
   local cmp_ = {
-    CmpItemAbbrDefault = { fg = palette.fg },
-    CmpItemAbbrDeprecatedDefault = { fg = palette.grey_2 },
-    CmpItemAbbrMatchDefault = { fg = palette.cyan, gui = "bold" },
-    CmpItemAbbrMatchFuzzyDefault = { fg = palette.cyan, gui = "bold" },
-    CmpItemKind = { fg = palette.blue },
     CmpItemAbbr = { fg = palette.fg },
-    CmpItemMenu = { fg = palette.grey_2, style = "italic" },
+    CmpItemAbbrDeprecated = { fg = palette.grey_2 },
+    CmpItemAbbrMatch = { fg = palette.bufline_yellow3 },
+    CmpItemAbbrMatchFuzzy = { fg = palette.bufline_yellow3 },
+    CmpItemKind = { fg = palette.blue },
+    CmpItemMenu = { fg = palette.grey_2, style = 'italic' },
     CmpItemKindField = { fg = palette.bufline_dark_purple },
     CmpItemKindSnippet = { fg = palette.bufline_yellow3 },
     CmpItemKindText = { fg = palette.bufline_yellow3 },
