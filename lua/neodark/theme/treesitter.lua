@@ -47,7 +47,7 @@ function treesitter.setup(palette)
     TSEmphasis = { fg = palette.fg },
     TSUnderline = { fg = palette.fg },
     TSTitle = { fg = palette.cyan },
-    TSLiteral = { fg = palette.fg },
+    TSLiteral = { fg = palette.blue },
     TSURI = { fg = palette.cyan },
     TSTag = { fg = palette.purple },
     TSTagDelimiter = { fg = palette.blue },
