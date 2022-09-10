@@ -19,7 +19,7 @@ function navic.setup(palette)
     NavicIconsNumber = { fg = palette.blue },
     NavicIconsBoolean = { fg = palette.yellow },
     NavicIconsArray = { fg = palette.yellow },
-    NavicIconsObject = { fg = palette.purple },
+    NavicIconsObject = { fg = palette.blue },
     NavicIconsKey = { fg = palette.yellow },
     NavicIconsNull = { fg = palette.red },
     NavicIconsEnumMember = { fg = palette.yellow },
