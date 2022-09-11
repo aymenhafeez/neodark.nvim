@@ -1,3 +1,4 @@
+local util = require("neodark.util")
 local telescope = {}
 
 function telescope.setup(palette)
@@ -21,7 +22,7 @@ function telescope.setup(palette)
     TelescopeTitle = { fg = palette.fg },
     TelescopePromptCounter = { fg = palette.grey_1 },
     TelescopePromptPrefix = { fg = palette.blue },
-    TelescopePreviewLine = { fg = palette.grey_5 },
+    TelescopePreviewLine = { bg = util.darken(palette.blue, 0.3, palette.bg0) },
     TelescopePreviewMatch = { fg = palette.bufline_yellow3 },
     TelescopePreviewPipe = { fg = palette.yellow },
     TelescopePreviewCharDev = { fg = palette.yellow },

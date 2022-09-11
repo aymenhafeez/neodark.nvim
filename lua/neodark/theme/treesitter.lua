@@ -4,7 +4,7 @@ function treesitter.setup(palette)
   local treesitter_ = {
     TSError = { fg = palette.red },
     TSPunctDelimiter = { fg = palette.blue },
-    TSPunctBracket = { fg = palette.yellow },
+    TSPunctBracket = { fg = palette.cyan },
     TSPunctSpecial = { fg = palette.blue },
     TSConstant = { fg = palette.yellow },
     TSConstBuiltin = { fg = palette.orange },
