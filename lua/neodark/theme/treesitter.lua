@@ -40,7 +40,7 @@ function treesitter.setup(palette)
     TSTypeBuiltin = { fg = palette.blue },
     TSStructure = { fg = palette.purple },
     TSInclude = { fg = palette.purple },
-    TSVariable = { fg = palette.fg },
+    TSVariable = { fg = palette.bufline_nord },
     TSVariableBuiltin = { fg = palette.yellow },
     TSText = { fg = palette.fg },
     TSStrong = { fg = palette.fg },

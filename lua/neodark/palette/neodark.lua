@@ -44,6 +44,8 @@ local colors = {
   grey_8 = '#252931',
   grey_9 = '#222732',
   grey_10 = '#282d39',
+  grey_11 = "#42464e",
+  grey_12 = "#252a34",
   gold = '#ffcc00',
   cyan = '#56b6c2',
   dark_cyan = "#266269",
@@ -94,6 +96,9 @@ local colors = {
   bufline_darkblue = '#081633',
   bufline_bg = '#282c34',
   bufline_fg = '#abb2bf',
+
+  lualine_bg = "#232833",
+
 }
 
 return colors

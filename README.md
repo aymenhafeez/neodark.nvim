@@ -1,5 +1,4 @@
 <h1 align=center>neodark.nvim</h2>
-<!-- <h3 align=center>Simple onedark based colorscheme for Neovim.</h3> -->
 
 ![alt text](showcase_4.png?raw=true "Showcase")
 

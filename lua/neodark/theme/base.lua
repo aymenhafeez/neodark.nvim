@@ -54,7 +54,7 @@ function base.setup(palette)
     LineNr = { fg = palette.grey_1, bg = palette.none },
     NonText = { fg = palette.grey_1, bg = palette.none },
     Pmenu = { fg = palette.fg, bg = palette.black_1 },
-    PmenuSel = { fg = palette.none, bg = palette.grey_4 },
+    PmenuSel = { fg = palette.bg, bg = palette.blue },
     PmenuSbar = { fg = palette.none, bg = palette.grey_3 },
     PmenuThumb = { fg = palette.none, bg = palette.fg },
     Question = { fg = palette.purple, bg = palette.none },
@@ -79,7 +79,7 @@ function base.setup(palette)
     WarningMsg = { fg = palette.yellow, bg = palette.none },
     WildMenu = { fg = palette.grey_3, bg = palette.blue },
     EndOfBuffer = { fg = palette.bg, bg = palette.none },
-    FloatBorder = { fg = palette.blue, bg = palette.none },
+    FloatBorder = { fg = palette.grey_11, bg = palette.none },
     MatchParen = { fg = palette.none, bg = palette.grey_5 },
   }
 
