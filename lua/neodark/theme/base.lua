@@ -1,4 +1,3 @@
-local util = require("neodark.util")
 local base = {}
 
 function base.setup(palette)
@@ -88,8 +87,8 @@ function base.setup(palette)
     VisualNOS = { fg = palette.none, bg = palette.bg2, style = "underline" },
     WildMenu = { fg = palette.bg, bg = palette.blue },
     EndOfBuffer = { fg = palette.bg, bg = palette.none },
-    FloatBorder = { fg = palette.grey, bg = palette.bg1 },
-    NormalFloat = { fg = palette.grey, bg = palette. bg1 },
+    FloatBorder = { fg = palette.bg3, bg = palette.blue },
+    NormalFloat = { fg = palette.fg, bg = palette.blue },
     MatchParen = { fg = palette.none, bg = palette.grey },
   }
 
