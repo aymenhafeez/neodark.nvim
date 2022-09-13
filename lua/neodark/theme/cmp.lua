@@ -13,9 +13,9 @@ function cmp.setup(palette)
     CmpItemKindText = { fg = palette.bufline_yellow3 },
     CmpItemKindFunction = { fg = palette.blue },
     CmpItemKindVariable = { fg = palette.bufline_dark_purple },
-    CmpBorder = { fg = palette.grey_11 },
-    CmpDocBorder = { fg = palette.bufline_darker_black, bg = palette.bufline_darker_black },
-    CmPmenu = { bg = palette.bufline_darker_black },
+    CmpBorder = { fg = palette.grey, bg = palette.bg },
+    CmpDocBorder = { fg = palette.grey, bg = palette.bg },
+    CmPpmenu = { bg = palette.bg },
   }
 
   return cmp_
