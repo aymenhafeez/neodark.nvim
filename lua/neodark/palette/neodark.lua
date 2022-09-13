@@ -1,9 +1,15 @@
+local util = require("neodark.util")
+
 local colors = {
   none = 'NONE',
   -- fg = '#abb2bf',
   fg = "#93a4c3",
   bg = '#1e222a',
   bg0 = "#282c34",
+  bg1 = "#282d39",
+  bg2 = "#283347",
+  bg3 = util.darken('#61afef', 0.3, "#282c34"),
+  bg_d = '#191d25',
   black = '#181a1f',
   black_1 = '#1f1f25',
   green = '#98c379',
@@ -12,11 +18,11 @@ local colors = {
   white_1 = '#afb2bb',
   white_2 = '#c9c9c9',
   blue = '#61afef',
+  bg_blue = util.darken('#61afef', 0.3, "#282c34"),
   blue_1 = '#40d9ff',
   blue_2 = '#1b1f27',
   blue_3 = '#181c23',
   blue_4 = '#8094b4',
-  blue_5 = '#191d25',
   blue_6 = '#60d0ff',
   blue_7 = '#364a82',
   dark_blue = '#334760',
@@ -97,7 +103,8 @@ local colors = {
   bufline_bg = '#282c34',
   bufline_fg = '#abb2bf',
 
-  lualine_bg = "#232833",
+  lualine_bg = "191d25",
+  lualine_light_bg = "#232833",
 
 }
 
