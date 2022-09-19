@@ -78,7 +78,7 @@ function base.setup(palette)
     StatusLineTermNC = { fg = palette.grey, bg = palette.bg1 },
     Substitute = { fg = palette.bg, bg = palette.green },
     TabLine = { fg = palette.fg, bg = palette.bg1 },
-    TabLineSel = { fg = palette.bg, bg = palette.fg },
+    TabLineSel = { fg = palette.fg, bg = palette.bg, style = "bold" },
     TabLineFill = { fg = palette.grey, bg = palette.bg1 },
     Terminal = { fg = palette.fg, bg = palette.bg },
     ToolbarBurron = { fg = palette.bg, bg = palette.bg_blue },

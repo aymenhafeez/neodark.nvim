@@ -9,6 +9,9 @@ local colors = {
   bg1 = "#282d39",
   bg2 = "#283347",
   bg3 = util.darken('#61afef', 0.3, "#282c34"),
+  bg4 = "#232833",
+  bg5 = "#282d3a",
+  bg6 = "#1d2129",
   bg_d = '#191d25',
   black = '#181a1f',
   black_1 = '#1f1f25',
@@ -58,7 +61,9 @@ local colors = {
   dark_cyan_2 = '#428286',
   purple = '#c678dd',
   dark_purple = "#7e3992",
+  lsp_grey = "#353d4b",
 
+  bufline_bg1 = "#191d25",
   bufline_white = "#abb2bf",
   bufline_darker_black = "#1b1f27",
   bufline_black = "#1e222a",
@@ -103,7 +108,7 @@ local colors = {
   bufline_bg = '#282c34',
   bufline_fg = '#abb2bf',
 
-  lualine_bg = "191d25",
+  lualine_bg = "#191d25",
   lualine_light_bg = "#232833",
 
 }

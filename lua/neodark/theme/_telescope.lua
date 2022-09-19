@@ -1,4 +1,3 @@
-local util = require("neodark.util")
 local telescope = {}
 
 function telescope.setup(palette)
@@ -6,23 +5,23 @@ function telescope.setup(palette)
     TelescopeResultsTitle = { fg = palette.green },
     TelescopePromptTitle = { fg = palette.blue },
     TelescopePreviewTitle = { fg = palette.purple },
-    TelescopeResultsBorder = { fg = palette.bg4, bg = palette.bg4 },
-    TelescopePromptBorder = { fg = palette.bg5, bg = palette.bg5 },
-    TelescopePreviewBorder = { fg = palette.bg4, bg = palette.bg4 },
+    TelescopeResultsBorder = { fg = palette.bg3 },
+    TelescopePromptBorder = { fg = palette.bg3 },
+    TelescopePreviewBorder = { fg = palette.bg3 },
     TelescopeSelectionCaret = { fg = palette.green, bg = palette.bg3},
     TelescopeMatching = { fg = palette.orange },
     TelescopeSelection = { fg = palette.none, bg = palette.bg3},
     TelescopeMultiSelection = { fg = palette.blue },
     TelescopeMultiIcon = { fg = palette.blue },
-    TelescopeNormal = { fg = palette.fg, bg = palette.bg4 },
-    TelescopePreviewNormal = { fg = palette.fg, bg = palette.bg4 },
-    TelescopePromptNormal = { fg = palette.fg, bg = palette.bg5 },
-    TelescopeResultsNormal = { fg = palette.fg, bg = palette.bg4 },
-    TelescopeBorder = { fg = palette.bg4, bg = palette.bg4 },
+    TelescopeNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopePreviewNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopePromptNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopeResultsNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopeBorder = { fg = palette.bg3 },
     TelescopeTitle = { fg = palette.fg },
     TelescopePromptCounter = { fg = palette.grey_1 },
     TelescopePromptPrefix = { fg = palette.blue },
-    TelescopePreviewLine = { bg = palette.bg3 },
+    TelescopePreviewLine = { bg = palette.bg_blue },
     TelescopePreviewMatch = { fg = palette.orange },
     TelescopePreviewPipe = { fg = palette.yellow },
     TelescopePreviewCharDev = { fg = palette.yellow },
@@ -64,4 +63,3 @@ function telescope.setup(palette)
 end
 
 return telescope
-

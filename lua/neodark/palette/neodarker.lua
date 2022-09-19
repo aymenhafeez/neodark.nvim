@@ -9,6 +9,8 @@ local colors = {
   bg2 = "#283347",
   -- bg3 = "#2a324a",
   bg3 = util.darken('#41a7fc', 0.3, "#282c34"),
+  bg4 = "#232833",
+  bg5 = "282d3a",
   bg_d = "#141b24",
   bg_blue = "#54b0fd",
   bg_yellow = "#f2cc81",
@@ -63,6 +65,7 @@ local colors = {
   diff_change = "#102b40",
   diff_text = "#1c4a6e",
 
+  bufline_bg1 = "#21283b",
   bufline_white = "#abb2bf",
   bufline_darker_black = "#1b1f27",
   bufline_black = "#1e222a",
