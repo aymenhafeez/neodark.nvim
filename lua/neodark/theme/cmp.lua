@@ -9,13 +9,15 @@ function cmp.setup(palette)
     CmpItemKind = { fg = palette.blue },
     CmpItemMenu = { fg = palette.grey_2, style = 'italic' },
     CmpItemKindField = { fg = palette.blue },
-    CmpItemKindSnippet = { fg = palette.bufline_yellow3 },
-    CmpItemKindText = { fg = palette.bufline_yellow3 },
+    CmpItemKindSnippet = { fg = palette.yellow_3 },
+    CmpItemKindText = { fg = palette.yellow_3 },
     CmpItemKindFunction = { fg = palette.blue },
-    CmpItemKindVariable = { fg = palette.bufline_dark_purple },
-    CmpBorder = { fg = palette.bg3, bg = palette.bg },
-    CmpDocBorder = { fg = palette.bg3, bg = palette.bg },
+    CmpItemKindVariable = { fg = palette.purple },
+    CmpItemKindModule = { fg = palette.yellow_3 },
     CmPpmenu = { bg = palette.bg },
+    CmpBorder = { fg = palette.bg3, bg = palette.bg },
+    CmpDocPmenu = { bg = palette.bg },
+    CmpDocBorder = { fg = palette.bg3, bg = palette.bg },
   }
 
   return cmp_

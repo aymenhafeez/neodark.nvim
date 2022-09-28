@@ -10,7 +10,7 @@ function nvimtree.setup(palette)
     NvimTreeNormal = { bg = palette.bg_d },
     NvimTreeNormalNC = { bg = palette.bg_d },
     NvimTreeWindowPicker = { fg = palette.fg, bg = palette.blue_2, gui = 'bold' },
-    NvimTreeVertSplit = { fg = palette.bg_d, bg = palette.bg_d },
+    NvimTreeVertSplit = { fg = palette.bg, bg = palette.bg },
     NvimTreeImageFile = { fg = palette.purple },
     NvimTreeSymlink = { fg = palette.cyan },
     NvimTreeSpecialFile = { fg = palette.yellow },

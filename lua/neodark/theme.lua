@@ -10,6 +10,7 @@ function theme.setup(options)
   local theme_name = options.theme_style
 
   local base = require('neodark.theme.base')
+  local barbar = require("neodark.theme.barbar")
   local bufferline = require('neodark.theme.bufferline')
   local cmp = require('neodark.theme.cmp')
   local treesitter = require('neodark.theme.treesitter')
@@ -27,6 +28,7 @@ function theme.setup(options)
 
   local theme_ = {
     base.setup(palette),
+    barbar.setup(palette),
     bufferline.setup(palette),
     cmp.setup(palette),
     treesitter.setup(palette),
