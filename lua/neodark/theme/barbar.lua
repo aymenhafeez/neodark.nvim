@@ -4,12 +4,12 @@ local util = require("neodark.util")
 
 function barbar.setup(palette)
   local barbar_ = {
-    BufferCurrent = { bg = palette.blue_8, fg = palette.fg, italic = true, bold = true },
+    BufferCurrent = { bg = palette.blue_8, fg = palette.fg, style = "bold" },
     BufferCurrentIndex = { bg = palette.blue_8, fg = palette.cyan },
     BufferCurrentMod = { bg = palette.blue_8, fg = palette.yellow },
     BufferCurrentSign = { bg = palette.blue_8, fg = palette.cyan },
     BufferCurrentTarget = { bg = palette.blue_8, fg = palette.red },
-    BufferVisible = { bg = palette.bg, fg = palette.comment, italic = true, bold = true },
+    BufferVisible = { bg = palette.bg, fg = palette.comment, style = "bold" },
     BufferVisibleIndex = { bg = palette.bg, fg = palette.cyan },
     BufferVisibleMod = { bg = palette.bg, fg = palette.yellow },
     BufferVisibleSign = { bg = palette.bg, fg = palette.cyan },

@@ -20,6 +20,7 @@ function nvimtree.setup(palette)
     NvimTreeGitStaged = { fg = palette.green },
     NvimTreeGitDirty = { fg = palette.yellow },
     NvimTreeGitNew = { fg = palette.green },
+    NvimTreeCursorline = { bg = palette.blue_9 },
   }
 
   return nvimtree_

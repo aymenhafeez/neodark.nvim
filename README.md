@@ -18,10 +18,7 @@
 ### Introduction
 
 This is a fork of VDuchauffour's OneDark based [neodark
-theme](http://github.com/VDuchauffour/neodark.nvim), with a few tweaks to the
-neodark style, and neodarker is now neodark with more vibrant foreground
-colours. Support for [nvim-navic](http://github.com/SmiteshP/nvim-navic) has
-also been added.
+theme](http://github.com/VDuchauffour/neodark.nvim) with a few tweaks
 
 ### Installation and usage
 
@@ -34,14 +31,6 @@ use "aymenhafeez/neodark.nvim"
 ```
 
 #### Usage
-
-- In vimscript:
-
-```vim
-colorscheme neodark
-```
-
-- In lua:
 
 ```lua
 vim.cmd 'colorscheme neodark'

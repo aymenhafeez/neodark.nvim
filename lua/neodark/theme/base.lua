@@ -1,5 +1,7 @@
 local base = {}
 
+local util = require("neodark.util")
+
 function base.setup(palette)
   local base_ = {
     Normal = { fg = palette.fg, bg = palette.bg },
@@ -57,6 +59,7 @@ function base.setup(palette)
     Folded = { fg = palette.grey, bg = palette.none },
     FoldColumn = { fg = palette.none, bg = palette.none },
     IncSearch = { fg = palette.bg, bg = palette.blue },
+    CurSearch = { fg = palette.bg, bg = palette.blue },
     LineNr = { fg = palette.grey_1, bg = palette.none },
     NonText = { fg = palette.grey, bg = palette.none },
     Pmenu = { fg = palette.fg, bg = palette.bg1 },
@@ -65,7 +68,7 @@ function base.setup(palette)
     PmenuThumb = { fg = palette.none, bg = palette.grey },
     Question = { fg = palette.yellow, bg = palette.none },
     QuickFixLine = { fg = palette.grey_3, bg = palette.orange },
-    Search = { fg = palette.bg, bg = palette.orange },
+    Search = { fg = palette.fg, bg = palette.blue_8 },
     SignColumn = { fg = palette.bg, bg = palette.bg },
     SpecialKey = { fg = palette.grey, bg = palette.none },
     SpellBad = { fg = palette.red, bg = palette.none },
