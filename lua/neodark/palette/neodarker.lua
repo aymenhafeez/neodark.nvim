@@ -28,7 +28,7 @@ local colors = {
   blue_4 = '#8094b4',
   blue_6 = '#60d0ff',
   blue_7 = '#364a82',
-  blue_8 = '#3b4261',
+  blue_8 = '#313751',
   blue_9 = "#1f242e",
   blue_10 = '#3d59a1',
   dark5 = "#737aa2",
@@ -115,6 +115,12 @@ local colors = {
 
   lualine_bg = "#191d25",
   lualine_light_bg = "#232833",
+
+  gitSigns = {
+    add = "#266d6a",
+    change = "#536c9e",
+    delete = "#b2555b",
+  },
 
 }
 

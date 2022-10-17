@@ -21,6 +21,7 @@ function theme.setup(options)
   local gitsigns = require('neodark.theme.gitsigns')
   local dashboard = require('neodark.theme.dashboard')
   local whichkey = require('neodark.theme.whichkey')
+  local statusline = require('neodark.theme.statusline')
   local symbols_outline = require('neodark.theme.symbols_outline')
   local navic = require('neodark.theme.navic')
   local notify = require('neodark.theme.notify')
@@ -39,6 +40,7 @@ function theme.setup(options)
     gitsigns.setup(palette),
     dashboard.setup(palette),
     whichkey.setup(palette),
+    statusline.setup(palette),
     symbols_outline.setup(palette),
     navic.setup(palette),
     notify.setup(palette),

@@ -117,6 +117,12 @@ local colors = {
   lualine_bg = "#191d25",
   lualine_light_bg = "#232833",
 
+  gitSigns = {
+    add = "#266d6a",
+    change = "#536c9e",
+    delete = "#b2555b",
+  },
+
 }
 
 return colors
