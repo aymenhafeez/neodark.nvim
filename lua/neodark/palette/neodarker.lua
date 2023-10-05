@@ -15,6 +15,7 @@ local colors = {
   bg6 = "#1d2129",
   bg_7 = "#20242a",
   bg8 = util.lighten("#1e2227", 0.5, "#2c313d"),
+  bg9 = util.lighten("#1e2227", 0.5, "#2c313d"),
   bg_cmp = "#1b1f27",
   bg_d = '#1e2227',
   black = '#1e2227',
