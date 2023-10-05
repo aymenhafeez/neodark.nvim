@@ -1,19 +1,23 @@
 local util = require("neodark.util")
-
+-- 23272e
+-- 1e2227
+-- 2c313d
 local colors = {
   none = 'NONE',
   fg = "#93a4c3",
-  bg = '#191d25',
+  bg = '#23272e',
   bg0 = "#282c34",
   bg1 = "#282d39",
   bg2 = "#283347",
   bg3 = util.darken('#61afef', 0.3, "#282c34"),
-  bg4 = "#1e232f",
+  bg4 = "#2c313d",
   bg5 = "#282d3a",
   bg6 = "#1d2129",
+  bg_7 = "#20242a",
+  bg8 = util.lighten("#1e2227", 0.4, "#2c313d"),
   bg_cmp = "#1b1f27",
-  bg_d = '#171a20',
-  black = '#181a1f',
+  bg_d = '#1e2227',
+  black = '#1e2227',
   black_1 = '#1f1f25',
   green = '#98c379',
   green_1 = '#89b06d',
@@ -64,11 +68,12 @@ local colors = {
   cyan = '#56b6c2',
   dark_cyan = "#266269",
   dark_cyan_2 = '#428286',
-  purple = '#c678dd',
+  -- purple = '#c678dd',
+  purple = '#bf68d9',
   dark_purple = "#7e3992",
   lsp_grey = "#353d4b",
 
-  bufline_bg1 = "#191d25",
+  bufline_bg1 = "#23272e",
   bufline_white = "#abb2bf",
   bufline_darker_black = "#1b1f27",
   bufline_black = "#1e222a",
@@ -76,7 +81,7 @@ local colors = {
   bufline_black3 = "#181c23",
   bufline_black4 = '#232833',
   bufline_black5 = '#222732',
-  bufline_black6 = '#191d25',
+  bufline_black6 = '#23272e',
   bufline_one_bg = "#282c34",
   bufline_one_bg2 = "#353b45",
   bufline_one_bg3 = "#30343c",
@@ -113,7 +118,7 @@ local colors = {
   bufline_bg = '#282c34',
   bufline_fg = '#abb2bf',
 
-  lualine_bg = "#191d25",
+  lualine_bg = "#23272e",
   lualine_light_bg = "#232833",
 
   gitSigns = {

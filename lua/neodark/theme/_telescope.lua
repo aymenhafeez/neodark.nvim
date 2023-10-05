@@ -1,29 +1,28 @@
-local util = require("neodark.util")
 local telescope = {}
 
 function telescope.setup(palette)
   local telescope_ = {
-    TelescopeNormal = { fg = palette.fg, bg = palette.bg_d },
-    TelescopeBorder = { fg = palette.bg_d, bg = palette.bg_d },
-    TelescopeTitle = { fg = palette.fg },
-    TelescopePromptTitle = { fg = palette.blue },
-    TelescopePromptBorder = { fg = palette.bg4, bg = palette.bg4 },
-    TelescopePromptNormal = { fg = palette.fg, bg = palette.bg4 },
-    TelescopePromptPrefix = { fg = palette.blue },
-    TelescopePromptCounter = { fg = palette.grey_1 },
     TelescopeResultsTitle = { fg = palette.green },
-    TelescopeResultsBorder = { fg = palette.bg_d, bg = palette.bg_d },
-    TelescopeResultsNormal = { fg = palette.fg, bg = palette.bg_d },
+    TelescopePromptTitle = { fg = palette.blue },
     TelescopePreviewTitle = { fg = palette.purple },
-    TelescopePreviewBorder = { fg = palette.bg_d, bg = palette.bg_d },
-    TelescopePreviewNormal = { fg = palette.fg, bg = palette.bg_d },
-    TelescopeSelection = { fg = palette.bg, bg = palette.blue},
+    TelescopeResultsBorder = { fg = palette.blue },
+    TelescopePromptBorder = { fg = palette.blue },
+    TelescopePreviewBorder = { fg = palette.blue },
     TelescopeSelectionCaret = { fg = palette.green, bg = palette.bg3},
-    TelescopeMatching = { fg = palette.yellow_3 },
-    TelescopeMultiSelection = { fg = palette.blue },
+    TelescopeMatching = { fg = palette.orange },
+    TelescopeSelection = { fg = palette.none, bg = palette.bg3},
+    TelescopeMultiSelection = { fg = palette.bg3 },
     TelescopeMultiIcon = { fg = palette.blue },
-    TelescopePreviewLine = { bg = palette.bg3 },
-    TelescopePreviewMatch = { fg = palette.yellow_3 },
+    TelescopeNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopePreviewNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopePromptNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopeResultsNormal = { fg = palette.fg, bg = palette.bg },
+    TelescopeBorder = { fg = palette.blue },
+    TelescopeTitle = { fg = palette.fg },
+    TelescopePromptCounter = { fg = palette.grey_1 },
+    TelescopePromptPrefix = { fg = palette.blue },
+    TelescopePreviewLine = { bg = palette.bg_blue },
+    TelescopePreviewMatch = { fg = palette.orange },
     TelescopePreviewPipe = { fg = palette.yellow },
     TelescopePreviewCharDev = { fg = palette.yellow },
     TelescopePreviewDirectory = { fg = palette.blue },
@@ -64,4 +63,3 @@ function telescope.setup(palette)
 end
 
 return telescope
-
