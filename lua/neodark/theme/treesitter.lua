@@ -22,7 +22,7 @@ function treesitter.setup(palette)
     ["@function"] = { fg = palette.blue },
     ["@function.builtin"] = { fg = palette.blue },
     ["@function.macro"] = { fg = palette.yellow },
-    ["@parameter"] = { fg = palette.orange },
+    ["@parameter"] = { fg = palette.red },
     ["@parameter.reference"] = { fg = palette.cyan },
     ["@method"] = { fg = palette.blue },
     ["@field"] = { fg = palette.cyan },
