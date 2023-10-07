@@ -12,6 +12,7 @@ function theme.setup(options)
   local base = require('neodark.theme.base')
   local bufferline = require('neodark.theme.bufferline')
   local cmp = require('neodark.theme.cmp')
+  local context = require('neodark.theme.treesitter_context')
   local treesitter = require('neodark.theme.treesitter')
   local lsp = require('neodark.theme.lsp')
   local telescope = require('neodark.theme.telescope')
@@ -32,6 +33,7 @@ function theme.setup(options)
     base.setup(palette),
     bufferline.setup(palette),
     cmp.setup(palette),
+    context.setup(palette),
     treesitter.setup(palette),
     lsp.setup(palette),
     telescope.setup(palette),
