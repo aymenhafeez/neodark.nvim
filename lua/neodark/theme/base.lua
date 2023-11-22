@@ -86,10 +86,10 @@ function base.setup(palette)
     VisualNOS = { fg = palette.none, bg = palette.bg2, style = "underline" },
     WildMenu = { fg = palette.bg, bg = palette.blue },
     EndOfBuffer = { fg = palette.bg, bg = palette.none },
-    FloatBorder = { fg = palette.blue, bg = palette.bg },
-    NormalFloat = { fg = palette.fg, bg = palette.bg },
-    -- FloatBorder = { fg = palette.bg_d, bg = palette.bg_d },
-    -- NormalFloat = { fg = palette.fg, bg = palette.bg_d },
+    -- FloatBorder = { fg = palette.blue, bg = palette.bg },
+    -- NormalFloat = { fg = palette.fg, bg = palette.bg },
+    FloatBorder = { fg = palette.bg_d, bg = palette.bg_d },
+    NormalFloat = { fg = palette.fg, bg = palette.bg_d },
     MatchParen = { fg = palette.none, bg = palette.grey },
   }
 
