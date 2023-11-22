@@ -1,3 +1,6 @@
+--[[ if reverting back to this file remember to change commented
+out settings in base.lua and lua/plugins/config/cmp.lua ]]
+
 local cmp = {}
 
 function cmp.setup(palette)
@@ -14,14 +17,13 @@ function cmp.setup(palette)
     CmpItemKindFunction = { fg = palette.blue },
     CmpItemKindVariable = { fg = palette.purple },
     CmpItemKindModule = { fg = palette.yellow_3 },
-    CmPpmenu = { bg = palette.bg_d },
-    CmpBorder = { fg = palette.bg_d, bg = palette.bg_d },
-    CmpDocPmenu = { fg = palette.bg_d, bg = palette.bg_d },
-    CmpDocBorder = { fg = palette.bg_d, bg = palette.bg_d },
+    CmPpmenu = { bg = palette.bg },
+    CmpBorder = { fg = palette.bg3, bg = palette.bg },
+    CmpDocPmenu = { bg = palette.bg },
+    CmpDocBorder = { fg = palette.bg3, bg = palette.bg },
   }
 
   return cmp_
 end
 
 return cmp
-
