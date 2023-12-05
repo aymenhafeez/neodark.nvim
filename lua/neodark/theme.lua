@@ -18,6 +18,7 @@ function theme.setup(options)
   local telescope = require('neodark.theme.telescope')
   local vimwiki = require('neodark.theme.vimwiki')
   local indent_blankline = require('neodark.theme.indent_blankline')
+  local indent_scope = require('neodark.theme.mini_indentscope')
   local gitsigns = require('neodark.theme.gitsigns')
   local dashboard = require('neodark.theme.dashboard')
   local whichkey = require('neodark.theme.whichkey')
@@ -39,6 +40,7 @@ function theme.setup(options)
     telescope.setup(palette),
     vimwiki.setup(palette),
     indent_blankline.setup(palette),
+    indent_scope.setup(palette),
     gitsigns.setup(palette),
     dashboard.setup(palette),
     whichkey.setup(palette),
